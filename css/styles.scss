@@ -124,7 +124,40 @@ header{
 footer{
   width: 100%;
   background-color: #707070;
-  padding: 40px;
+  padding: 40px 40px 0 40px;
+
+  color: white;
+
+  h2{
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+}
+
+.footerFlex{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.bottomLine{
+  margin-top: 40px;
+  bottom: 10px;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+
+  span{
+    margin: 10px;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -133,7 +166,7 @@ footer{
   //FORSIDE
   .Fsec {
     h2{
-      margin: 0px;
+      margin: 0;
       font-size: 20px;
     }
   }

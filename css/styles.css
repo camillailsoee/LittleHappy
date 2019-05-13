@@ -88,11 +88,34 @@ header {
 footer {
   width: 100%;
   background-color: #707070;
-  padding: 40px; }
+  padding: 40px 40px 0 40px;
+  color: white; }
+  footer h2 {
+    font-size: 35px;
+    line-height: 40px; }
+  footer a {
+    text-decoration: none;
+    color: white; }
+
+.footerFlex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+
+.bottomLine {
+  margin-top: 40px;
+  bottom: 10px;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+  .bottomLine span {
+    margin: 10px; }
 
 @media screen and (max-width: 350px) {
   .Fsec h2 {
-    margin: 0px;
+    margin: 0;
     font-size: 20px; } }
 @media screen and (min-width: 768px) {
   .Fsec h2 {
