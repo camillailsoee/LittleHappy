@@ -130,6 +130,28 @@ header {
     height: auto;
     margin: 50px auto 30px auto; }
 
+.table {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: auto;
+  max-width: 1000px;
+  border: none; }
+  .table .content {
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    border: none; }
+    .table .content img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      margin: 10px auto; }
+
 .secInsta {
   background-image: url("../images/forside:vision.jpg");
   background-size: cover;
@@ -147,6 +169,10 @@ header {
     font-size: 30px;
     margin: 20px auto;
     max-width: 600px; }
+  .secInstaInner p {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto; }
 
 .instaPicsRound {
   width: 100%; }
@@ -217,7 +243,11 @@ footer {
     display: flex;
     width: 100%;
     flex-flow: row nowrap;
-    justify-content: center; } }
+    justify-content: center; }
+
+  .table .content img {
+    width: 200px;
+    height: 200px; } }
 @media screen and (min-width: 768px) {
   .Fsec h2 {
     margin: 30px;
@@ -228,6 +258,10 @@ footer {
 @media screen and (min-width: 992px) {
   .Fsec h2 {
     margin: 40px;
-    font-size: 50px; } }
+    font-size: 50px; }
+
+  .table .content img {
+    width: 300px;
+    height: 300px; } }
 
 /*# sourceMappingURL=styles.css.map */
