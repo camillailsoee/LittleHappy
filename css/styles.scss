@@ -111,6 +111,32 @@ header{
 }
 
 //FORSIDE
+.secTwoIndex{
+  width: 100%;
+  background-color: white;
+  color: #707070;
+  padding: 40px;
+  text-align: center;
+
+  h2{
+   font-size:40px;
+  }
+
+  p{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+  img{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 50px auto;
+  }
+
+}
+
 
 // MARKETING
 
