@@ -89,7 +89,7 @@ header {
   width: 100%;
   background-color: white;
   color: #707070;
-  padding: 40px;
+  padding: 80px 40px;
   text-align: center; }
   .secTwoIndex h2 {
     font-size: 40px; }
@@ -101,7 +101,78 @@ header {
     width: 100%;
     max-width: 700px;
     height: auto;
-    margin: 50px auto; }
+    margin: 50px auto 30px auto; }
+
+.secMarketing {
+  background-image: url("../images/konkurrence-littlehappy-look2019-collage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px; }
+
+.secMarketingInner {
+  width: 100%;
+  max-width: 900px;
+  background-color: white;
+  color: #707070;
+  padding: 80px 40px;
+  margin: auto;
+  text-align: center; }
+  .secMarketingInner h2 {
+    font-size: 40px; }
+  .secMarketingInner p {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto; }
+  .secMarketingInner img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 50px auto 30px auto; }
+
+.secInsta {
+  background-image: url("../images/forside:vision.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px; }
+
+.secInstaInner {
+  width: 100%;
+  background-color: white;
+  color: #707070;
+  text-align: center;
+  padding: 80px 30px; }
+  .secInstaInner h2 {
+    font-size: 30px;
+    margin: 20px auto;
+    max-width: 600px; }
+
+.instaPicsRound {
+  width: 100%; }
+
+.roundImg1 {
+  margin-left: 20px; }
+
+.roundImg2 {
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px; }
+
+.roundImg3 {
+  margin-left: 30px;
+  top: 240px; }
+
+.InstaPicsSquare {
+  padding: 100px 20px; }
+
+.squarePic {
+  width: 100%;
+  max-width: 700px;
+  margin: auto; }
+  .squarePic img {
+    width: 100%;
+    height: auto; }
 
 footer {
   width: 100%;
@@ -134,11 +205,26 @@ footer {
 @media screen and (max-width: 350px) {
   .Fsec h2 {
     margin: 0;
-    font-size: 20px; } }
+    font-size: 20px; }
+
+  .secMarketing {
+    padding: 20px; } }
+@media screen and (min-width: 400px) {
+  .secInstaInner h2 {
+    font-size: 40px; }
+
+  .instaPicsRound {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: center; } }
 @media screen and (min-width: 768px) {
   .Fsec h2 {
     margin: 30px;
-    font-size: 40px; } }
+    font-size: 40px; }
+
+  .secMarketing {
+    padding: 60px; } }
 @media screen and (min-width: 992px) {
   .Fsec h2 {
     margin: 40px;

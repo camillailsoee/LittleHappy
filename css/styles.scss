@@ -115,7 +115,7 @@ header{
   width: 100%;
   background-color: white;
   color: #707070;
-  padding: 40px;
+  padding: 80px 40px;
   text-align: center;
 
   h2{
@@ -132,17 +132,113 @@ header{
     width: 100%;
     max-width: 700px;
     height: auto;
-    margin: 50px auto;
+    margin: 50px auto 30px auto;
   }
 
 }
 
 
 // MARKETING
+.secMarketing{
+  background-image: url("../images/konkurrence-littlehappy-look2019-collage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 30px;
+}
+
+.secMarketingInner{
+  width: 100%;
+  max-width: 900px;
+  background-color: white;
+  color: #707070;
+  padding: 80px 40px;
+  margin: auto;
+  text-align: center;
+
+  h2{
+    font-size:40px;
+  }
+
+  p{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+  img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 50px auto 30px auto;
+  }
+
+}
+
 
 // OM OS
 
 //INSTAGRAM
+.secInsta{
+  background-image: url("../images/forside:vision.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+
+.secInstaInner{
+  width: 100%;
+  background-color: white;
+  color: #707070;
+  text-align: center;
+  padding: 80px 30px;
+
+  h2{
+    font-size:30px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+
+}
+
+.instaPicsRound{
+width: 100%;
+
+}
+
+.roundImg1{
+  margin-left: 20px;
+}
+
+.roundImg2{
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.roundImg3{
+  margin-left: 30px;
+  top: 240px;
+}
+
+.InstaPicsSquare{
+  padding: 100px 20px;
+}
+
+.squarePic{
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
 
 //BRANDS
 
@@ -199,6 +295,9 @@ footer{
 
 
   // MARKETING
+  .secMarketing{
+    padding: 20px;
+  }
 
   // OM OS
 
@@ -208,6 +307,24 @@ footer{
 
   //FOOTER
 
+
+}
+
+@media screen and (min-width: 400px){
+  .secInstaInner{
+
+    h2{
+      font-size:40px;
+    }
+
+  }
+
+  .instaPicsRound{
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  justify-content: center;
+  }
 
 }
 
@@ -224,6 +341,9 @@ footer{
 
 
   // MARKETING
+  .secMarketing{
+    padding: 60px;
+  }
 
   // OM OS
 
