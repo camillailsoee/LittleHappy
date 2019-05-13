@@ -4,16 +4,26 @@
 
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: whitesmoke; }
+
+.bb {
   width: 100%;
   max-width: 1200px;
-  font-family: 'Poppins', sans-serif; }
+  margin: 0 auto;
+  background-color: white;
+  overflow: hidden;
+  z-index: 0; }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   margin: 0;
   padding: 0;
-  ont-family: AracneCondReg;
-  font-weight: normal;
-  font-style: normal; }
+  font-family: "javacom";
+  font-size: 50px;
+  text-align: center; }
+
+h2, h3, h4, h5, h6 {
+  font-family: "Javacom"; }
 
 ul, ol {
   margin: 0;
@@ -31,5 +41,66 @@ img {
   display: block;
   max-width: 100%;
   height: auto; }
+
+#mySidenav a {
+  position: absolute;
+  right: -150px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 200px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px 0 0 50px;
+  z-index: 500; }
+
+#mySidenav a:hover {
+  right: 0; }
+
+#about {
+  top: 120px;
+  background-color: #707070;
+  z-index: 500; }
+
+#blog {
+  top: 200px;
+  background-color: #707070;
+  z-index: 500; }
+
+#projects {
+  top: 280px;
+  background-color: #707070;
+  z-index: 500; }
+
+#contact {
+  top: 360px;
+  background-color: #707070;
+  z-index: 500; }
+
+header {
+  width: 100%;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 40px; }
+  header h2 {
+    font-size: 20px; }
+
+footer {
+  width: 100%;
+  background-color: #707070;
+  padding: 40px; }
+
+@media screen and (max-width: 350px) {
+  .Fsec h2 {
+    margin: 0px;
+    font-size: 20px; } }
+@media screen and (min-width: 768px) {
+  .Fsec h2 {
+    margin: 30px;
+    font-size: 40px; } }
+@media screen and (min-width: 992px) {
+  .Fsec h2 {
+    margin: 40px;
+    font-size: 50px; } }
 
 /*# sourceMappingURL=styles.css.map */
