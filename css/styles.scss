@@ -157,7 +157,7 @@ header{
   text-align: center;
 
   h2{
-    font-size:40px;
+    font-size:30px;
   }
 
   p{
@@ -238,45 +238,42 @@ header{
 
 }
 
-.instaPicsRound{
-width: 100%;
 
-}
-
-.roundImg1{
-  margin-left: 20px;
-}
-
-.roundImg2{
-  float: right;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-
-.roundImg3{
-  margin-left: 30px;
-  top: 240px;
-}
-
-.InstaPicsSquare{
-  padding: 100px 20px;
-}
-
-.squarePic{
-  width: 100%;
-  max-width: 700px;
-  margin: auto;
-
-  img{
-    width: 100%;
-    height: auto;
-  }
-
-}
 
 
 
 //BRANDS
+.brandsSec1{
+   width: 100%;
+  text-align: center;
+  color: #707070;
+  padding: 80px 30px;
+
+
+  h2{
+    font-size:40px;
+  }
+
+  p{
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+}
+
+.brandsSec23{
+  position: relative;
+
+  .text{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 20px;
+    font-family: 'Javacom';
+    color: white;
+  }
+
+}
 
 //FOOTER
 footer{
@@ -357,12 +354,6 @@ footer{
 
   }
 
-  .instaPicsRound{
-  display: flex;
-  width: 100%;
-  flex-flow: row nowrap;
-  justify-content: center;
-  }
 
   //OM OS
   .table{
@@ -374,6 +365,17 @@ footer{
 
       }
     }
+  }
+
+  //BRANDS
+  .brandsSec23{
+
+
+    .text{
+      font-size: 30px;
+
+    }
+
   }
 
 }
@@ -401,6 +403,15 @@ footer{
   //INSTAGRAM
 
   //BRANDS
+  .brandsSec23{
+
+
+    .text{
+      font-size: 40px;
+
+    }
+
+  }
 
   //FOOTER
 
@@ -437,6 +448,15 @@ footer{
   //INSTAGRAM
 
   //BRANDS
+  .brandsSec23{
+
+
+    .text{
+      font-size: 50px;
+
+    }
+
+  }
 
   //FOOTER
 

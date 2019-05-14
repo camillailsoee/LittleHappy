@@ -119,7 +119,7 @@ header {
   margin: auto;
   text-align: center; }
   .secMarketingInner h2 {
-    font-size: 40px; }
+    font-size: 30px; }
   .secMarketingInner p {
     width: 100%;
     max-width: 500px;
@@ -174,31 +174,27 @@ header {
     max-width: 500px;
     margin: 20px auto; }
 
-.instaPicsRound {
-  width: 100%; }
-
-.roundImg1 {
-  margin-left: 20px; }
-
-.roundImg2 {
-  float: right;
-  margin-right: 20px;
-  margin-bottom: 20px; }
-
-.roundImg3 {
-  margin-left: 30px;
-  top: 240px; }
-
-.InstaPicsSquare {
-  padding: 100px 20px; }
-
-.squarePic {
+.brandsSec1 {
   width: 100%;
-  max-width: 700px;
-  margin: auto; }
-  .squarePic img {
+  text-align: center;
+  color: #707070;
+  padding: 80px 30px; }
+  .brandsSec1 h2 {
+    font-size: 40px; }
+  .brandsSec1 p {
     width: 100%;
-    height: auto; }
+    max-width: 500px;
+    margin: 20px auto; }
+
+.brandsSec23 {
+  position: relative; }
+  .brandsSec23 .text {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 20px;
+    font-family: 'Javacom';
+    color: white; }
 
 footer {
   width: 100%;
@@ -239,22 +235,22 @@ footer {
   .secInstaInner h2 {
     font-size: 40px; }
 
-  .instaPicsRound {
-    display: flex;
-    width: 100%;
-    flex-flow: row nowrap;
-    justify-content: center; }
-
   .table .content img {
     width: 200px;
-    height: 200px; } }
+    height: 200px; }
+
+  .brandsSec23 .text {
+    font-size: 30px; } }
 @media screen and (min-width: 768px) {
   .Fsec h2 {
     margin: 30px;
     font-size: 40px; }
 
   .secMarketing {
-    padding: 60px; } }
+    padding: 60px; }
+
+  .brandsSec23 .text {
+    font-size: 40px; } }
 @media screen and (min-width: 992px) {
   .Fsec h2 {
     margin: 40px;
@@ -262,6 +258,9 @@ footer {
 
   .table .content img {
     width: 300px;
-    height: 300px; } }
+    height: 300px; }
+
+  .brandsSec23 .text {
+    font-size: 50px; } }
 
 /*# sourceMappingURL=styles.css.map */
