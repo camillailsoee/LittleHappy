@@ -1,0 +1,2 @@
+ErrorDocument 403 fejlsider/fejl403.html
+ErrorDocument 404 fejlsider/fejl404.html
