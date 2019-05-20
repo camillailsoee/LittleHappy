@@ -58,7 +58,7 @@ img {
 
 //MENU
 #mySidenav a {
-  position: absolute;
+  position: fixed;
   right: -150px;
   transition: 0.3s;
   padding: 15px;
@@ -238,8 +238,93 @@ header{
 
 }
 
+.IGgrid{
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+}
 
+.grid1{
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background-image: url("../images/ig1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
+.grid2{
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-image: url("../images/ig2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid3{
+   grid-column: 3 / 4;
+   grid-row: 1 / 2;
+  background-image: url("../images/ig3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+.grid4{
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  background-image: url("../images/ig4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid5{
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-image: url("../images/ig5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid6{
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  background-image: url("../images/ig6.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid7{
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  background-image: url("../images/ig7.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid8{
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  background-image: url("../images/ig8.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid9{
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  background-image: url("../images/ig9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 
 //BRANDS
@@ -294,9 +379,16 @@ footer{
 
 }
 
+
 .footerFlex{
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.footerIcon{
+  display: flex;
+  flex-flow: row nowrap;
   justify-content: space-around;
 }
 
@@ -314,16 +406,76 @@ footer{
   }
 }
 
+.mobil{
+  display: inline;
+}
+
+.web{
+  display: none;
+}
+
+input{
+  position: absolute;
+  right: 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  padding:5px;
+  border-radius: 50px;
+  display: block;
+}
+
+
+
 @media screen and (max-width: 350px) {
   // Alt der ændres i tablet stående fra mobil
+  p{
+    font-size: 8px;
+  }
+
+  input{
+    font-size: 12px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+
+  .secTwoIndex{
+    h2{
+      font-size: 16px;
+    }
+
+    img{
+      margin-bottom: 10px;
+    }
+
+    padding-bottom: 20px;
+  }
+
+  .bottomLine{
+    flex-flow: row wrap;
+    justify-content: center;
+
+  }
+
+  .footerFlex{
+    font-size: 12px;
+  }
+
 
   //FORSIDE
   .Fsec {
     h2{
       margin: 0;
-      font-size: 20px;
+      font-size: 14px;
     }
   }
+
 
 
   // MARKETING
@@ -343,6 +495,14 @@ footer{
 }
 
 @media screen and (min-width: 400px){
+
+  .mobil{
+    display: none;
+  }
+
+  .web{
+    display: inline;
+  }
 
   //INSTAGRAM
   .secInstaInner{
@@ -445,6 +605,7 @@ footer{
   }
 
   //INSTAGRAM
+
 
   //BRANDS
   .brandsSec23{
